@@ -13,6 +13,7 @@ package-install:
 make lint:
 	uv run ruff check brain_games
 
-.PHONY: brain-games package-install
+brain-even:
+	uv run brain-even
 
-
+.PHONY: brain-even
