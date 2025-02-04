@@ -3,4 +3,4 @@ def welcome_user():
     name = input('May I have your name? ')
     print(f'Hello, {name}!')
     ROUNDS = 3
-    return ROUNDS
+    return ROUNDS, name

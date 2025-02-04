@@ -1,4 +1,5 @@
 from random import choice, randint
+from brain_games.games.brain_welcome import welcome_user
 
 from brain_games.games.logic_calc import game
 
@@ -23,4 +24,4 @@ def calc_game():
             correct_answer = n1 * n2
         return question1, correct_answer
 
-    game(rule, query)
+    game(rule, query, welcome_user)

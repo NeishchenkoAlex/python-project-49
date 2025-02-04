@@ -20,4 +20,7 @@ reinstall:
 	uv build
 	uv tool install --force dist/*.whl
 
+brain-gcd:
+	uv run brain-gcd
+
 .PHONY: brain-even
