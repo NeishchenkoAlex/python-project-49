@@ -1,4 +1,6 @@
-from random import randint , choice
+from random import choice, randint
+
+
 def game(rule):
     print('Welcome to the Brain Games!')
     name = input('May I have your name? ')
@@ -8,18 +10,16 @@ def game(rule):
     
     for _ in range(ROUNDS):
         random_choice = (choice([' + ', ' * ', ' - ']))
-        n1 = randint(1,100)
-        n2 = randint(1,100)
-        question1 = str(n1)+random_choice+str(n2)
+        n1 = randint(1, 100)
+        n2 = randint(1, 100)
+        question1 = str(n1) + random_choice + str(n2)
         if random_choice == ' + ':
-            correct_answer=n1+n2
+            correct_answer = n1 + n2
         if random_choice == ' - ':
-            correct_answer=n1-n2
+            correct_answer = n1 - n2
         if random_choice == ' * ':
-            correct_answer=n1*n2
+            correct_answer = n1 * n2
         
-        
-
         question = question1
 
         print(f'Question: {question}')
