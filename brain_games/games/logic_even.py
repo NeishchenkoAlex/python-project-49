@@ -1,8 +1,8 @@
-def game(rule, query):
-    print('Welcome to the Brain Games!')
-    name = input('May I have your name? ')
-    print(f'Hello, {name}!')
-    ROUNDS = 3
+from brain_games.games.brain_welcome import ROUNDS, name
+
+
+def game(rule, query, welcome_user):
+    welcome_user()
 
     rule()
 
