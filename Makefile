@@ -16,4 +16,8 @@ make lint:
 brain-even:
 	uv run brain-even
 
+reinstall:
+	uv build
+	uv tool install --force dist/*.whl
+
 .PHONY: brain-even
