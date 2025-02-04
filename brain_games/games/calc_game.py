@@ -1,4 +1,4 @@
-from brain_games.scripts. logic_calc import game
+from brain_games.games.logic_calc import game
 
 def calc_game():
 	

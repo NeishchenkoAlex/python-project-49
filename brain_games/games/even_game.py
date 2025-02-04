@@ -1,6 +1,6 @@
 from random import randint
 
-from brain_games.scripts.logic import game
+from brain_games.games.logic_even import game
 
 
 def even_game():
