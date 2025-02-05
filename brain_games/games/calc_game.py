@@ -21,6 +21,6 @@ def calc_game():
             correct_answer = n1 - n2
         if random_choice == ' * ':
             correct_answer = n1 * n2
-        return question, correct_answer
+        return question, str(correct_answer)
 
     game(rule, query)
