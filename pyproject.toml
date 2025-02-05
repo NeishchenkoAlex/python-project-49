@@ -1,8 +1,9 @@
 [project]
 name = "hexlet-code"
 version = "0.1.0"
-description = "Add your description here"
+description = "Brain-games"
 readme = "README.md"
+authors = [{name = "AlexNeishchenko", email = "br.cheg@mail.ru"}]
 requires-python = ">=3.9"
 dependencies = [
     "prompt>=0.4.1",
