@@ -1,14 +1,14 @@
-from brain_games.games.brain_welcome import ROUNDS, name
-from brain_games.games.gcd_game import correct_answer, question1
-
-
-def game(rule, query, welcome_user):
-    welcome_user()
+def game(rule, query):
+    print('Welcome to the Brain Games!')
+    name = input('May I have your name? ')
+    print(f'Hello, {name}!')
+    ROUNDS = 3
+    
     rule()
     
     for _ in range(ROUNDS):
         
-        question = question1
+        question, correct_answer = query()
 
         print(f'Question: {question}')
         answer = input('Your answer: ')

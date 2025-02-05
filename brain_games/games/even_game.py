@@ -1,5 +1,4 @@
 from random import randint
-from brain_games.games.brain_welcome import welcome_user
 
 from brain_games.games.logic_even import game
 
@@ -14,4 +13,4 @@ def even_game():
 		correct_answer = 'yes' if question % 2 == 0 else 'no'
 		return question, correct_answer
 	
-	game(rule, query, welcome_user)
+	game(rule, query)
