@@ -15,10 +15,10 @@ def game(rule, query):
         if answer == str(correct_answer):
             print('Correct!')
         else:
-            print(f"Question: {question}\n"
-                  f"Your answer: {answer}.\n"
-                  f"""'{answer}' is wrong answer ;(.\
-                  Correct answer was '{correct_answer}'.\n"""
+            print(f"Question: {question} \n"
+                  f"Your answer: {answer}. \n"
+                  f"'{answer}' is wrong answer ;(. "
+                  f"Corect answer was '{correct_answer}'. \n"
                   f"Let's try again, {name}!")
             break
     else:
