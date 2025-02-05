@@ -10,7 +10,7 @@ build:
 package-install:
 	uv tool install dist/*.whl
 
-make lint:
+lint:
 	uv run ruff check --fix
 
 brain-even:
@@ -22,5 +22,8 @@ reinstall:
 
 brain-gcd:
 	uv run brain-gcd
+
+brain-progression:
+	uv run brain-progression
 
 .PHONY: brain-even
