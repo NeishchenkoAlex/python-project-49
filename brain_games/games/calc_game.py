@@ -1,6 +1,6 @@
 from random import choice, randint
 
-from brain_games.games.logic_calc import game
+from brain_games.all_logic import game
 
 
 def calc_game():

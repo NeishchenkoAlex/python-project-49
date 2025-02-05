@@ -1,6 +1,6 @@
 from random import randint
 
-from brain_games.games.logic_prime import game
+from brain_games.all_logic import game
 
 
 def prime_game():

@@ -3,7 +3,7 @@ def game(rule, query):
     name = input('May I have your name? ')
     print(f'Hello, {name}!')
     ROUNDS = 3
-    
+
     rule()
 
     for _ in range(ROUNDS):

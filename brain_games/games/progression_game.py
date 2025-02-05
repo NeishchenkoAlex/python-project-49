@@ -1,6 +1,6 @@
 from random import randint
 
-from brain_games.games.logic_progression import game
+from brain_games.all_logic import game
 
 
 def progression_game():

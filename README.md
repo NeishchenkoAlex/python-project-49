@@ -2,6 +2,14 @@
 [![Actions Status](https://github.com/NeishchenkoAlex/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/NeishchenkoAlex/python-project-49/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/351ab26f568c7c6c9b80/maintainability)](https://codeclimate.com/github/NeishchenkoAlex/python-project-49/maintainability)
 
+>##### The BRAIN GAMES project consists of 5 games, from the category of logic. Game conditions: "Each game consists of three rounds, in which the player must answer correctly. An incorrect answer stops the game. After three correct answers, the game ends with the player winning."  Good luck
+
+# How to install
+### install uv package manager
+git clone https://github.com/NeishchenkoAlex/python-project-49.git
+cd python-project-49
+make install
+
 # Games
 __Brain-even__
 >> Example: installing a package, starting a game, winning and losing a player.

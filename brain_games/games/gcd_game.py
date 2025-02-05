@@ -1,7 +1,7 @@
 from math import gcd
 from random import randint
 
-from brain_games.games.logic_gcd import game
+from brain_games.all_logic import game
 
 
 def gcd_game():
