@@ -14,6 +14,6 @@ def gcd_game():
 		n2 = randint(1, 100)
 		correct_answer = gcd(n1, n2)
 		question = str(n1) + ' ' + str(n2)
-		return question, correct_answer
+		return question, str(correct_answer)
 		
 	game(rule, query)
