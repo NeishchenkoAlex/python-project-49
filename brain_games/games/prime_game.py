@@ -9,14 +9,14 @@ def prime_game():
         print('Answer "yes" if given number is prime. Otherwise answer "no".')
 
     def query():
-        n = (randint(2, 100))
+        number = (randint(2, 100))
         
-        question = str(n)
+        question = str(number)
         
         correct_answer = 'yes'
         
-        for i in range(2, n):
-            if n % i == 0:
+        for i in range(2, number):
+            if number % i == 0:
                 correct_answer = 'no'
 
         return question, correct_answer

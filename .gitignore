@@ -2,3 +2,4 @@
 .DS_Store
 *.cast
 hello.py
+__pycache__/

@@ -9,18 +9,19 @@ def calc_game():
         print('What is the result of the expression?')
 
     def query():
-        random_choice = (choice([' + ', ' * ', ' - ']))
-        n1 = randint(1, 100)
-        n2 = randint(1, 100)
+        arithmetic_signs = [' + ', ' * ', ' - ']
+        random_signs = (choice(arithmetic_signs))
+        number_1 = randint(1, 100)
+        number_2 = randint(1, 100)
         
-        question = str(n1) + random_choice + str(n2)
+        question = str(number_1) + random_signs + str(number_2)
         
-        if random_choice == ' + ':
-            correct_answer = n1 + n2
-        if random_choice == ' - ':
-            correct_answer = n1 - n2
-        if random_choice == ' * ':
-            correct_answer = n1 * n2
+        if random_signs == ' + ':
+            correct_answer = number_1 + number_2
+        if random_signs == ' - ':
+            correct_answer = number_1 - number_2
+        if random_signs == ' * ':
+            correct_answer = number_1 * number_2
         return question, str(correct_answer)
 
     game(rule, query)

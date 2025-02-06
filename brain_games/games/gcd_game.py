@@ -10,10 +10,10 @@ def gcd_game():
 		print('Find the greatest common divisor of given numbers.')
 
 	def query():
-		n1 = randint(1, 100)
-		n2 = randint(1, 100)
-		correct_answer = gcd(n1, n2)
-		question = str(n1) + ' ' + str(n2)
+		number_1 = randint(1, 100)
+		number_2 = randint(1, 100)
+		correct_answer = gcd(number_1, number_2)
+		question = str(number_1) + ' ' + str(number_2)
 		return question, str(correct_answer)
 		
 	game(rule, query)
